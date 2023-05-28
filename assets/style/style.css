@@ -1,0 +1,36 @@
+nav {
+    background-color: rgb(100, 154, 255); /* Color de fondo del menú */
+    border-radius: 10px; /* Redondear las esquinas del menú */
+    width: 100%;
+    position: relative;
+}
+
+nav ul {
+    list-style: none; /* Quitar las viñetas de la lista */
+    margin: 0; /* Quitar el margen predeterminado de la lista */
+    padding: 8px; /* Quitar el relleno predeterminado de la lista */
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block; /* Mostrar los elementos del menú en línea */
+    margin-right: 40px; /* Espacio entre los elementos del menú */
+
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255); /* Color del texto del menú */
+    display: block; /* Mostrar el enlace como un bloque para que tenga espacio para el padding */
+    font-size: 16px; /* Tamaño del texto del menú */
+    padding: 10px 15px; /* Espacio alrededor del texto del menú */
+    text-decoration: none; /* Quitar la decoración del enlace */
+}
+nav ul li a:active{
+    background-color: black;
+}
+
+nav ul li a:hover {
+    background-color: rgb(77, 139, 255); /* Color de fondo cuando se pasa el mouse sobre un elemento del menú */
+    color: rgb(255, 255, 255); /* Cambiar el color del texto cuando se pasa el mouse sobre un elemento del menú */
+    transition: background-color 0.2s ease; /* Agregar una transición suave al color de fondo */
+}
