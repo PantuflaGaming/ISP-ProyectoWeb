@@ -1,9 +1,10 @@
 nav {
     background-color: rgb(100, 154, 255); /* Color de fondo del menú */
-    border-radius: 10px; /* Redondear las esquinas del menú */
     width: 100%;
     position: relative;
 }
+
+
 
 nav ul {
     list-style: none; /* Quitar las viñetas de la lista */
