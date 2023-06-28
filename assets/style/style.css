@@ -35,9 +35,10 @@ nav ul li a:active{
 }
 
 nav ul li a:hover {
+    border-radius: 20px;
     background-color: #2c3968; /* Color de fondo cuando se pasa el mouse sobre un elemento del menú */
     color: rgb(255, 255, 255); /* Cambiar el color del texto cuando se pasa el mouse sobre un elemento del menú */
-    transition: background-color 0.2s ease; /* Agregar una transición suave al color de fondo */
+    transition: background-color 1.5s ease; /* Agregar una transición suave al color de fondo */
 }
 
 
